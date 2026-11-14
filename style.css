@@ -1,0 +1,58 @@
+/* Reset mặc định và thiết lập font chữ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Căn giữa toàn bộ nội dung ra giữa màn hình */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tiêu đề chính */
+h1 {
+    font-size: 2rem;
+    color: #1a73e8;
+    margin-bottom: 12px;
+}
+
+/* Đoạn văn mô tả */
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+/* Nút bấm (Button) */
+#btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Hiệu ứng khi di chuột vào nút */
+#btn:hover {
+    background-color: #1557b0;
+}
+
+/* Hiệu ứng khi nhấn nút */
+#btn:active {
+    transform: scale(0.96);
+}
